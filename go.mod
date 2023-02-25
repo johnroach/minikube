@@ -87,7 +87,7 @@ require (
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	golang.org/x/oauth2 v0.0.0-20190115181402-5dab4167f31c
 	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
-	golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223
+	golang.org/x/sys v0.1.0
 	golang.org/x/text v0.3.2
 	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d // indirect
 	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
