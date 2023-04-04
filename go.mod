@@ -3,15 +3,13 @@ module k8s.io/minikube
 go 1.12
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/Parallels/docker-machine-parallels v1.3.0
-	github.com/Sirupsen/logrus v0.0.0-20170822132746-89742aefa4b2 // indirect
 	github.com/blang/semver v3.5.0+incompatible
 	github.com/c4milo/gotoolkit v0.0.0-20170318115440-bcc06269efa9 // indirect
 	github.com/cloudfoundry-attic/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21
 	github.com/cloudfoundry/jibber_jabber v0.0.0-20151120183258-bcc4c8345a21 // indirect
 	github.com/cpuguy83/go-md2man v1.0.4 // indirect
-	github.com/docker/docker v1.13.1 // indirect
+	github.com/docker/docker v20.10.24+incompatible // indirect
 	github.com/docker/go-units v0.0.0-20170127094116-9e638d38cf69
 	github.com/docker/machine v0.16.1
 	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f
@@ -22,7 +20,7 @@ require (
 	github.com/golang/glog v0.0.0-20141105023935-44145f04b68c
 	github.com/golang/groupcache v0.0.0-20160516000752-02826c3e7903 // indirect
 	github.com/google/btree v1.0.0 // indirect
-	github.com/google/go-cmp v0.2.0
+	github.com/google/go-cmp v0.5.5
 	github.com/google/go-containerregistry v0.0.0-20190318164241-019cdfc6adf9
 	github.com/google/go-github/v25 v25.0.2
 	github.com/google/gofuzz v0.0.0-20161122191042-44d81051d367 // indirect
@@ -53,6 +51,7 @@ require (
 	github.com/mitchellh/go-ps v0.0.0-20170309133038-4fdf99ab2936
 	github.com/mitchellh/mapstructure v0.0.0-20170307201123-53818660ed49 // indirect
 	github.com/moby/hyperkit v0.0.0-20171020124204-a12cd7250bcd
+	github.com/moby/term v0.0.0-20221205130635-1aeaba878587 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/olekukonko/tablewriter v0.0.0-20160923125401-bdcc175572fd
@@ -84,18 +83,17 @@ require (
 	github.com/xeipuuv/gojsonreference v0.0.0-20150808065054-e02fc20de94c // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20160623135812-c539bca196be
 	github.com/zchee/go-vmnet v0.0.0-20161021174912-97ebf9174097
-	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/oauth2 v0.0.0-20190115181402-5dab4167f31c
-	golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
-	golang.org/x/sys v0.0.0-20190222072716-a9d3bda3a223
-	golang.org/x/text v0.3.2
+	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
+	golang.org/x/sys v0.1.0
+	golang.org/x/text v0.3.3
 	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d // indirect
-	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.6 // indirect
-	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/inf.v0 v0.9.0 // indirect
 	gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0 // indirect
+	gotest.tools/v3 v3.4.0 // indirect
 	k8s.io/api v0.0.0-20180712090710-2d6f90ab1293
 	k8s.io/apimachinery v0.0.0-20180621070125-103fd098999d
 	k8s.io/apiserver v0.0.0-20180914001516-67c892841170 // indirect
